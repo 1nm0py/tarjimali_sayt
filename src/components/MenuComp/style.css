@@ -1,0 +1,45 @@
+.box {
+    width: 1120px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.box-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+}
+
+.box-icons {
+    width: 50px;
+    text-align: center;
+}
+
+.fa-heart {
+   color: #444444;
+}
+
+.icon {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.text-icon {
+    color: #444444;
+}
+
+.right-box-icon{
+    width: 180px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.head-inp{
+    border: 1px solid #2DA55F;
+    outline: none;
+    padding: 10px 300px 10px 20px;
+    border-radius: 5px;
+    color: #444444;
+    font-weight: 700;
+}

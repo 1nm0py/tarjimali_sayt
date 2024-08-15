@@ -1,0 +1,28 @@
+{
+   
+    "phone": {
+        "phone_text": "Tелефон и cмартфоны"
+    },
+    "laptop": {
+        "laptop_text": "Aгротехники и компьютеры"
+    },
+    "tv":{
+        "tv_text": "Телевизионное и видео оборудование"
+    },
+    "beautiful":{
+        "beautiful_text":"Красота"
+    },
+    "texnika":{
+        "texnika_text":"Бытовая техника"
+    },
+    "avto":{
+        "avto_text":"Автотехника"
+    },
+    "brend":{
+        "brend_text":"Бренды"
+    },
+    "mahsulot":{
+        "mahsulot_text":"Популярные продукты"
+    }
+
+}

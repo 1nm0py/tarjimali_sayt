@@ -1,0 +1,27 @@
+{
+    
+    "phone": {
+        "phone_text": "Telefon va Smartfonlar"
+    },
+    "laptop": {
+        "laptop_text": "Orgtexnika va Kompyuterlar"
+    },
+    "tv":{
+        "tv_text":"Televizor va Videotexnikalar"
+    },
+    "beautiful":{
+        "beautiful_text":"Chiroy va go'zallik"
+    },
+    "texnika":{
+        "texnika_text":"Maishiy texnikalar"
+    },
+    "avto":{
+        "avto_text":"Avto jihozlar"
+    },
+    "brend":{
+        "brend_text":"Brendlar"
+    },
+    "mahsulot":{
+        "mahsulot_text":"Ommabop Mahsulotlar"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    
+    "phone": {
+        "phone_text": "Phone and smartphone"
+    },
+    "laptop": {
+        "laptop_text": "Computers"
+    },
+    "tv": {
+        "tv_text" : "Television and Video Equipment"
+    },
+    "beautiful":{
+        "beautiful_text":"Beauty and beauty"
+    },
+    "texnika":{
+        "texnika_text":"Household appliances"
+    },
+    "avto":{
+        "avto_text":"Auto equipment"
+    },
+    "brend":{
+        "brend_text":"Brands"
+    },
+    "mahsulot":{
+        "mahsulot_text":"Popular Products"
+    }
+}
