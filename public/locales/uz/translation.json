@@ -1,27 +1,62 @@
 {
-    
     "phone": {
         "phone_text": "Telefon va Smartfonlar"
     },
     "laptop": {
         "laptop_text": "Orgtexnika va Kompyuterlar"
     },
-    "tv":{
-        "tv_text":"Televizor va Videotexnikalar"
+    "tv": {
+        "tv_text": "Televizor va Videotexnikalar"
     },
-    "beautiful":{
-        "beautiful_text":"Chiroy va go'zallik"
+    "beautiful": {
+        "beautiful_text": "Chiroy va go'zallik"
     },
-    "texnika":{
-        "texnika_text":"Maishiy texnikalar"
+    "texnika": {
+        "texnika_text": "Maishiy texnikalar"
     },
-    "avto":{
-        "avto_text":"Avto jihozlar"
+    "avto": {
+        "avto_text": "Avto jihozlar"
     },
-    "brend":{
-        "brend_text":"Brendlar"
+    "brend": {
+        "brend_text": "Brendlar"
     },
-    "mahsulot":{
-        "mahsulot_text":"Ommabop Mahsulotlar"
+    "mahsulot": {
+        "mahsulot_text": "Ommabop Mahsulotlar"
+    },
+    "chegirma":{
+        "chegirma_text": "Chegirmadagi Mahsulotlar"
+    },
+    "qulaynarx": {
+        "qulaynarx_text": "Qulay narxlar"
+    },
+    "pulqayta": {
+        "pulqayta_text": "Bizdan arzonini topsangiz pulingizni qaytaramiz !!!"
+    },
+    "dastavka": {
+        "dastavka": "Bepul yetkazib berish"
+    },
+    "dastavka_text": {
+        "dastavka_text": "Sizning xotirjamligingiz uchun 3 yilgacha sayt kafolati mavjud."
+    },
+    "bolibT": {
+        "bolibT": "Bo’lib to’lash"
+    },
+    "bolibT_text": {
+        "bolibT_text": "Katta chegirmalar, bepul yetkazib berish va maxsus yordam mutaxassisi bilan."
+    },
+    "garant": {
+        "garant": "1 yil garantiya"
+    },
+    "garant_text":{
+        "garant_text": "Yangi mahsulotlarga 70% gacha chegirma, siz eng yaxshi narxga amin bo'lishingiz mumkin."
+    },
+    "xizmat": {
+        "garant": "Qo’llab quvatlash xizmati"
+    },
+    "xizmat_text":{
+        "garant_text": "Yangi mahsulotlarga 70% gacha chegirma, siz eng yaxshi narxga amin bo'lishingiz mumkin."
+    },
+    "songi":{
+        "songi":"So'ngi ko'rilganlar"
     }
 }

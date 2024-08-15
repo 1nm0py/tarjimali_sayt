@@ -118,7 +118,7 @@ function HomeCompo() {
                                 230 000 so'mdan / 24 oy
                             </div>
                             <button className="product-card-btn">
-                                <i class="fa-solid fa-cart-plus"></i>
+                                <i className="fa-solid fa-cart-plus"></i>
                                 Savatchaga</button>
 
                         </div>
@@ -132,7 +132,7 @@ function HomeCompo() {
                                 230 000 so'mdan / 24 oy
                             </div>
                             <button className="product-card-btn">
-                                <i class="fa-solid fa-cart-plus"></i>
+                                <i className="fa-solid fa-cart-plus"></i>
                                 Savatchaga</button>
 
                         </div>
@@ -147,7 +147,7 @@ function HomeCompo() {
                                 230 000 so'mdan / 24 oy
                             </div>
                             <button className="product-card-btn">
-                                <i class="fa-solid fa-cart-plus"></i>
+                                <i className="fa-solid fa-cart-plus"></i>
                                 Savatchaga</button>
 
                         </div>
@@ -161,7 +161,7 @@ function HomeCompo() {
                                 230 000 so'mdan / 24 oy
                             </div>
                             <button className="product-card-btn">
-                                <i class="fa-solid fa-cart-plus"></i>
+                                <i className="fa-solid fa-cart-plus"></i>
                                 Savatchaga</button>
 
                         </div>
@@ -175,7 +175,7 @@ function HomeCompo() {
                                 230 000 so'mdan / 24 oy
                             </div>
                             <button className="product-card-btn">
-                                <i class="fa-solid fa-cart-plus"></i>
+                                <i className="fa-solid fa-cart-plus"></i>
                                 Savatchaga</button>
 
                         </div>
@@ -189,7 +189,7 @@ function HomeCompo() {
                                 230 000 so'mdan / 24 oy
                             </div>
                             <button className="product-card-btn">
-                                <i class="fa-solid fa-cart-plus"></i>
+                                <i className="fa-solid fa-cart-plus"></i>
                                 Savatchaga</button>
 
                         </div>
@@ -200,7 +200,7 @@ function HomeCompo() {
 
 
                     <div className="popular-products">
-                        <h2 style={{ marginBottom: "30px", marginTop: "30px" }}>Chegirmadagi Mahsulotlar</h2>
+                        <h2 style={{ marginBottom: "30px", marginTop: "30px" }}>{t('chegirma.chegirma_text')}</h2>
                     </div>
                     <div className="product-cards">
 
@@ -215,7 +215,7 @@ function HomeCompo() {
                                 125 000 so'mdan / 24 oy
                             </div>
                             <button className="product-card-btn">
-                                <i class="fa-solid fa-cart-plus"></i>
+                                <i className="fa-solid fa-cart-plus"></i>
                                 Savatchaga</button>
 
                         </div>
@@ -230,7 +230,7 @@ function HomeCompo() {
                                 230 000 so'mdan / 24 oy
                             </div>
                             <button className="product-card-btn">
-                                <i class="fa-solid fa-cart-plus"></i>
+                                <i className="fa-solid fa-cart-plus"></i>
                                 Savatchaga</button>
 
                         </div>
@@ -244,7 +244,7 @@ function HomeCompo() {
                                 115 000 so'mdan / 24 oy
                             </div>
                             <button className="product-card-btn">
-                                <i class="fa-solid fa-cart-plus"></i>
+                                <i className="fa-solid fa-cart-plus"></i>
                                 Savatchaga</button>
 
                         </div>
@@ -258,7 +258,7 @@ function HomeCompo() {
                                 345 000 so'mdan / 24 oy
                             </div>
                             <button className="product-card-btn">
-                                <i class="fa-solid fa-cart-plus"></i>
+                                <i className="fa-solid fa-cart-plus"></i>
                                 Savatchaga</button>
 
                         </div>
@@ -272,7 +272,7 @@ function HomeCompo() {
                                 160 000 so'mdan / 24 oy
                             </div>
                             <button className="product-card-btn">
-                                <i class="fa-solid fa-cart-plus"></i>
+                                <i className="fa-solid fa-cart-plus"></i>
                                 Savatchaga</button>
 
                         </div>
@@ -286,7 +286,7 @@ function HomeCompo() {
                                 80 000 so'mdan / 24 oy
                             </div>
                             <button className="product-card-btn">
-                                <i class="fa-solid fa-cart-plus"></i>
+                                <i className="fa-solid fa-cart-plus"></i>
                                 Savatchaga</button>
 
                         </div>
@@ -303,7 +303,7 @@ function HomeCompo() {
 
 
 
-                    <h2 style={{ marginBottom: "30px", marginTop: "30px" }}>Qulay narxlar</h2>
+                    <h2 style={{ marginBottom: "30px", marginTop: "30px" }}>{t('qulaynarx.qulaynarx_text')}</h2>
                     <div className="product-cards">
 
 
@@ -316,7 +316,7 @@ function HomeCompo() {
                                 125 000 so'mdan / 24 oy
                             </div>
                             <button className="product-card-btn">
-                                <i class="fa-solid fa-cart-plus"></i>
+                                <i className="fa-solid fa-cart-plus"></i>
                                 Savatchaga</button>
 
                         </div>
@@ -331,7 +331,7 @@ function HomeCompo() {
                                 230 000 so'mdan / 24 oy
                             </div>
                             <button className="product-card-btn">
-                                <i class="fa-solid fa-cart-plus"></i>
+                                <i className="fa-solid fa-cart-plus"></i>
                                 Savatchaga</button>
 
                         </div>
@@ -345,7 +345,7 @@ function HomeCompo() {
                                 115 000 so'mdan / 24 oy
                             </div>
                             <button className="product-card-btn">
-                                <i class="fa-solid fa-cart-plus"></i>
+                                <i className="fa-solid fa-cart-plus"></i>
                                 Savatchaga</button>
 
                         </div>
@@ -359,7 +359,7 @@ function HomeCompo() {
                                 345 000 so'mdan / 24 oy
                             </div>
                             <button className="product-card-btn">
-                                <i class="fa-solid fa-cart-plus"></i>
+                                <i className="fa-solid fa-cart-plus"></i>
                                 Savatchaga</button>
 
                         </div>
@@ -373,7 +373,7 @@ function HomeCompo() {
                                 160 000 so'mdan / 24 oy
                             </div>
                             <button className="product-card-btn">
-                                <i class="fa-solid fa-cart-plus"></i>
+                                <i className="fa-solid fa-cart-plus"></i>
                                 Savatchaga</button>
 
                         </div>
@@ -387,7 +387,7 @@ function HomeCompo() {
                                 80 000 so'mdan / 24 oy
                             </div>
                             <button className="product-card-btn">
-                                <i class="fa-solid fa-cart-plus"></i>
+                                <i className="fa-solid fa-cart-plus"></i>
                                 Savatchaga</button>
 
                         </div>
@@ -395,42 +395,41 @@ function HomeCompo() {
                     </div>
                     <img src={Japan} alt="" style={{ width: "1120px", marginTop: "25px" }} />
 
-                    <h2 style={{ textAlign: "center", marginTop: "25px" }}>Bizdan arzonini topsangiz pulingizni qaytaramiz !!!</h2>
+                    <h2 style={{ textAlign: "center", marginTop: "25px" }}>{t('pulqayta.pulqayta_text')}</h2>
 
                     <div className="delivery-info">
                         <div className="delivery">
-                            <div className="delivery-icon"><i class="fa-solid fa-truck"></i></div>
-                            <h3 style={{ marginBottom: "10px", color: "#065374" }}>Bepul yetkazib berish</h3>
-                            <p style={{ color: "#333333" }}>Up to 3 years on-site warranty available for your peace of mind.</p>
+                            <div className="delivery-icon"><i className="fa-solid fa-truck"></i></div>
+                            <h3 style={{ marginBottom: "10px", color: "#065374" }}>{t('dastavka.dastavka')}</h3>
+                            <p style={{ color: "#333333" }}>{t('dastavka_text.dastavka_text')}</p>
                         </div>
 
 
                         <div className="delivery">
                             <div className="delivery-icon"><img src={verified} alt="" /></div>
-                            <h3 style={{ marginBottom: "10px", color: "#065374" }}>Bo’lib to’lash </h3>
-                            <p style={{ color: "#333333" }}>With big discounts, free delivery and a dedicated support specialist.</p>
+                            <h3 style={{ marginBottom: "10px", color: "#065374" }}>{t('bolibT.bolibT')}</h3>
+                            <p style={{ color: "#333333" }}>{t('bolibT_text.bolibT_text')}</p>
                         </div>
 
 
                         <div className="delivery">
-                            <div className="delivery-icon"><i class="fa-solid fa-award"></i></div>
-                            <h3 style={{ marginBottom: "10px", color: "#065374" }}>1 yil garantiya</h3>
-                            <p style={{ color: "#333333" }}>Up to 70% off new Products, you can be sure of the best price.</p>
+                            <div className="delivery-icon"><i className="fa-solid fa-award"></i></div>
+                            <h3 style={{ marginBottom: "10px", color: "#065374" }}>{t('garant.garant')}</h3>
+                            <p style={{ color: "#333333" }}>{t('garant_text.garant_text')}</p>
                         </div>
 
 
                         <div className="delivery">
-                            <div className="delivery-icon"><i class="fa-solid fa-phone-volume"></i></div>
-                            <h3 style={{ marginBottom: "10px", color: "#065374" }}>Qo’llab quvatlash xizmati</h3>
-                            <p style={{ color: "#333333" }}>Up to 70% off new Products, you can be sure of the best
-                                price.</p>
+                            <div className="delivery-icon"><i className="fa-solid fa-phone-volume"></i></div>
+                            <h3 style={{ marginBottom: "10px", color: "#065374" }}>{t('xizmat.xizmat')}</h3>
+                            <p style={{ color: "#333333" }}>{t('xizmat_text.xizmat_text')}</p>
                         </div>
 
 
                     </div>
 
                     <div className="last-seen">
-                        <h2 style={{ marginTop: "30px" }}>So'ngi ko'rilganlar</h2>
+                        <h2 style={{ marginTop: "30px" }}>{t('songi.songi')}</h2>
                     </div>
 
 
@@ -446,7 +445,7 @@ function HomeCompo() {
                                 115 000 so'mdan / 24 oy
                             </div>
                             <button className="product-card-btn">
-                                <i class="fa-solid fa-cart-plus"></i>
+                                <i className="fa-solid fa-cart-plus"></i>
                                 Savatchaga</button>
 
                         </div>
@@ -460,7 +459,7 @@ function HomeCompo() {
                                 345 000 so'mdan / 24 oy
                             </div>
                             <button className="product-card-btn">
-                                <i class="fa-solid fa-cart-plus"></i>
+                                <i className="fa-solid fa-cart-plus"></i>
                                 Savatchaga</button>
 
                         </div>
@@ -474,7 +473,7 @@ function HomeCompo() {
                                 160 000 so'mdan / 24 oy
                             </div>
                             <button className="product-card-btn">
-                                <i class="fa-solid fa-cart-plus"></i>
+                                <i className="fa-solid fa-cart-plus"></i>
                                 Savatchaga</button>
 
                         </div>
@@ -488,7 +487,7 @@ function HomeCompo() {
                                 80 000 so'mdan / 24 oy
                             </div>
                             <button className="product-card-btn">
-                                <i class="fa-solid fa-cart-plus"></i>
+                                <i className="fa-solid fa-cart-plus"></i>
                                 Savatchaga</button>
 
                         </div>
@@ -507,11 +506,11 @@ function HomeCompo() {
 
                     <div className="footer-left">
                         <h2 className="footer-header">Qo’llab-quvatlash <br /> xizmati</h2>
-                        <div className="footer-number"><i class="fa-solid fa-mobile-screen-button"></i>
+                        <div className="footer-number"><i className="fa-solid fa-mobile-screen-button"></i>
                             +998 (94) 412 70 70
                         </div>
                         <div className="footer-calendar">
-                            <i class="fa-solid fa-calendar-days"></i>
+                            <i className="fa-solid fa-calendar-days"></i>
                             09:00 - 20:00 (Har kuni)
                         </div>
                     </div>
@@ -521,7 +520,7 @@ function HomeCompo() {
                             Olmaliq Savdo
                         </h2>
                         <div className="footer-locate">
-                            <i class="fa-solid fa-location-dot"></i>
+                            <i className="fa-solid fa-location-dot"></i>
                             Olmaliq shahar, Kamalak tumani. <br />
                             Amir Temur ko’chasi 29-a uy
                         </div>

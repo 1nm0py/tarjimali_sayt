@@ -1,5 +1,4 @@
 {
-    
     "phone": {
         "phone_text": "Phone and smartphone"
     },
@@ -7,21 +6,57 @@
         "laptop_text": "Computers"
     },
     "tv": {
-        "tv_text" : "Television and Video Equipment"
+        "tv_text": "Television and Video Equipment"
     },
-    "beautiful":{
-        "beautiful_text":"Beauty and beauty"
+    "beautiful": {
+        "beautiful_text": "Beauty and beauty"
     },
-    "texnika":{
-        "texnika_text":"Household appliances"
+    "texnika": {
+        "texnika_text": "Household appliances"
     },
-    "avto":{
-        "avto_text":"Auto equipment"
+    "avto": {
+        "avto_text": "Auto equipment"
     },
-    "brend":{
-        "brend_text":"Brands"
+    "brend": {
+        "brend_text": "Brands"
     },
-    "mahsulot":{
-        "mahsulot_text":"Popular Products"
+    "mahsulot": {
+        "mahsulot_text": "Popular Products"
+    },
+    "chegirma":{
+        "chegirma_text": "Discount Products"
+    },
+    "qulaynarx": {
+        "qulaynarx_text": "Affordable prices"
+    },
+    "pulqayta": {
+        "pulqayta_text": "If you find a cheaper one from us, we will refund your money!!!"
+    },
+    "dastavka": {
+        "dastavka": "Free shipping"
+    },
+    "dastavka_text": {
+        "dastavka_text": "Up to 3 years on-site warranty available for your peace of mind."
+    },
+    "bolibT": {
+        "bolibT": "Pay in installments"
+    },
+    "bolibT_text": {
+        "bolibT_text": "With big discounts, free delivery and a dedicated support specialist."
+    },
+    "garant": {
+        "garant": "1 year warranty"
+    },
+    "garant_text":{
+        "garant_text": "Up to 70% off new Products, you can be sure of the best price."
+    },
+    "xizmat": {
+        "xizmat": "Support service"
+    },
+    "xizmat_text":{
+        "xizmat_text": "Up to 70% off new Products, you can be sure of the best price."
+    },
+    "songi":{
+        "songi":"Last seen"
     }
 }
