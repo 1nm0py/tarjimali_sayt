@@ -58,5 +58,14 @@
     },
     "songi":{
         "songi":"Last seen"
+    },
+    "qolab": {
+        "qolab": "Support service"
+    },
+    "olsavdo": {
+        "olsavdo": "Almalik Trade"
+    },
+    "local": {
+        "local": "Almalyk city, Kamalak district. Amir Temur street 29-a house"
     }
 }

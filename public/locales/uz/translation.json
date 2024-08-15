@@ -23,7 +23,7 @@
     "mahsulot": {
         "mahsulot_text": "Ommabop Mahsulotlar"
     },
-    "chegirma":{
+    "chegirma": {
         "chegirma_text": "Chegirmadagi Mahsulotlar"
     },
     "qulaynarx": {
@@ -47,16 +47,25 @@
     "garant": {
         "garant": "1 yil garantiya"
     },
-    "garant_text":{
+    "garant_text": {
         "garant_text": "Yangi mahsulotlarga 70% gacha chegirma, siz eng yaxshi narxga amin bo'lishingiz mumkin."
     },
     "xizmat": {
         "garant": "Qo’llab quvatlash xizmati"
     },
-    "xizmat_text":{
+    "xizmat_text": {
         "garant_text": "Yangi mahsulotlarga 70% gacha chegirma, siz eng yaxshi narxga amin bo'lishingiz mumkin."
     },
-    "songi":{
-        "songi":"So'ngi ko'rilganlar"
+    "songi": {
+        "songi": "So'ngi ko'rilganlar"
+    },
+    "qolab": {
+        "qolab": "Qo’llab-quvatlash \n xizmati"
+    },
+    "olsavdo": {
+        "olsavdo": "Olmaliq Savdo"
+    },
+    "local":{
+        "local": "Olmaliq shahar, Kamalak tumani. \nAmir Temur ko’chasi 29-a uy"
     }
 }

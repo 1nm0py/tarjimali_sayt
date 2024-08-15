@@ -505,7 +505,7 @@ function HomeCompo() {
                 <div className="footer-part">
 
                     <div className="footer-left">
-                        <h2 className="footer-header">Qo’llab-quvatlash <br /> xizmati</h2>
+                        <h2 className="footer-header">{t('qolab.qolab')}</h2>
                         <div className="footer-number"><i className="fa-solid fa-mobile-screen-button"></i>
                             +998 (94) 412 70 70
                         </div>
@@ -517,12 +517,11 @@ function HomeCompo() {
 
                     <div className="footer-right">
                         <h2 className="footer-header-right" style={{ marginBottom: "30px" }}>
-                            Olmaliq Savdo
+                        {t('olsavdo.olsavdo')}
                         </h2>
                         <div className="footer-locate">
                             <i className="fa-solid fa-location-dot"></i>
-                            Olmaliq shahar, Kamalak tumani. <br />
-                            Amir Temur ko’chasi 29-a uy
+                            {t('local.local')}
                         </div>
                     </div>
 
