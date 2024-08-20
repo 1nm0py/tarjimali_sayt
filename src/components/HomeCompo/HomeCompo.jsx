@@ -3,7 +3,6 @@ import './style.css';
 import MenuComp from '../MenuComp/MenuComp';
 import headerImg from '../../img/Header-img.png';
 
-
 import iphone from '../../img/iphone.png';
 import laptop from '../../img/laptop.png';
 import TV from '../../img/TV.png';
@@ -29,6 +28,7 @@ import verified from '../../img/verified.png';
 
 import { useTranslation } from 'react-i18next';
 import i18next from "i18next";
+import { obj_card } from '../../card_list_01';
 
 
 
@@ -68,7 +68,6 @@ function HomeCompo() {
             <MenuComp />
             <img src={headerImg} alt="" className='header-img' />
             <div className="header-cards">
-
                 <div className="header-card">
                     <img src={iphone} alt="" className='card-img' />
                     <h4>{t('phone.phone_text')}</h4></div>
@@ -87,9 +86,6 @@ function HomeCompo() {
                 <div className="header-card">
                     <img src={superVacuum} alt="" className='card-img' />
                     <h4>{t('avto.avto_text')}</h4></div>
-
-
-
             </div>
             <section className='section'>
                 <div className="ADS">
@@ -108,402 +104,115 @@ function HomeCompo() {
                         <h2 style={{ marginBottom: "30px", marginTop: "30px" }}>{t('mahsulot.mahsulot_text')}</h2>
                     </div>
                     <div className="product-cards">
+                        {obj_card.map(({ product_name, product_title, product_price, product_sale, product_image }) => (
+                            <div className="product-card">
+                                <img src={product_image} alt="" className='product-card-img' />
+                                <h4 className='product-header'>{product_name}</h4>
+                                <p style={{ textAlign: "left" }} className='product-info'>{product_title}</p>
+                                <div className="product-price">{product_price}</div>
+                                <div className="month-price">
+                                    {product_sale}
+                                </div>
+                                <button className="product-card-btn">
+                                    <i className="fa-solid fa-cart-plus"></i>
+                                    Savatchaga</button>
 
-                        <div className="product-card">
-                            <img src={iphone} alt="" className='product-card-img' />
-                            <h4 className='product-header'>iPhone 13 Pro Max</h4>
-                            <p style={{ textAlign: "left" }} className='product-info'>256 gb, 10gb, <br /> gray solutions phone</p>
-                            <div className="product-price">12 300 000 so'm</div>
-                            <div className="month-price">
-                                230 000 so'mdan / 24 oy
                             </div>
-                            <button className="product-card-btn">
-                                <i className="fa-solid fa-cart-plus"></i>
-                                Savatchaga</button>
-
-                        </div>
-
-                        <div className="product-card">
-                            <img src={laptop} alt="" className='product-card-img' style={{ width: "120px" }} />
-                            <h4 className='product-header'>MacBook Pro</h4>
-                            <p style={{ textAlign: "left" }} className='product-info'>256 gb, 10gb, <br /> gray solutions phone</p>
-                            <div className="product-price">12 300 000 so'm</div>
-                            <div className="month-price">
-                                230 000 so'mdan / 24 oy
-                            </div>
-                            <button className="product-card-btn">
-                                <i className="fa-solid fa-cart-plus"></i>
-                                Savatchaga</button>
-
-                        </div>
-
-                        <div className="product-card">
-                            <img src={scooter} alt="" className='product-card-img' style={{ width: "120px" }} />
-                            <h4 className='product-header'>Scooter 13a</h4>
-                            <p style={{ textAlign: "left" }} className='product-info'>69km/s , 10 soat, <br />
-                                gray solutions phone</p>
-                            <div className="product-price">12 300 000 so'm</div>
-                            <div className="month-price">
-                                230 000 so'mdan / 24 oy
-                            </div>
-                            <button className="product-card-btn">
-                                <i className="fa-solid fa-cart-plus"></i>
-                                Savatchaga</button>
-
-                        </div>
-
-                        <div className="product-card">
-                            <img src={TV} alt="" className='product-card-img' style={{ width: "120px" }} />
-                            <h4 className='product-header'>Samsung 55a</h4>
-                            <p style={{ textAlign: "left" }} className='product-info'>256 gb, 10gb, <br /> gray solutions phone</p>
-                            <div className="product-price">12 300 000 so'm</div>
-                            <div className="month-price">
-                                230 000 so'mdan / 24 oy
-                            </div>
-                            <button className="product-card-btn">
-                                <i className="fa-solid fa-cart-plus"></i>
-                                Savatchaga</button>
-
-                        </div>
-
-                        <div className="product-card">
-                            <img src={mebel} alt="" className='product-card-img' style={{ width: "120px" }} />
-                            <h4 className='product-header'>iPhone 13 Pro Max</h4>
-                            <p style={{ textAlign: "left" }} className='product-info'>256 gb, 10gb, <br /> gray solutions phone</p>
-                            <div className="product-price">12 300 000 so'm</div>
-                            <div className="month-price">
-                                230 000 so'mdan / 24 oy
-                            </div>
-                            <button className="product-card-btn">
-                                <i className="fa-solid fa-cart-plus"></i>
-                                Savatchaga</button>
-
-                        </div>
-
-                        <div className="product-card">
-                            <img src={vacuum} alt="" className='product-card-img' style={{ width: "110px" }} />
-                            <h4 className='product-header'>iPhone 13 Pro Max</h4>
-                            <p style={{ textAlign: "left" }} className='product-info'>256 gb, 10gb, <br /> gray solutions phone</p>
-                            <div className="product-price">12 300 000 so'm</div>
-                            <div className="month-price">
-                                230 000 so'mdan / 24 oy
-                            </div>
-                            <button className="product-card-btn">
-                                <i className="fa-solid fa-cart-plus"></i>
-                                Savatchaga</button>
-
-                        </div>
-
+                        ))}
                     </div>
-
-
-
-
                     <div className="popular-products">
                         <h2 style={{ marginBottom: "30px", marginTop: "30px" }}>{t('chegirma.chegirma_text')}</h2>
                     </div>
                     <div className="product-cards">
+                        {obj_card.map(({ product_name, product_title, product_price, product_sale, product_image }) => (
+                            <div className="product-card">
+                                <img src={product_image} alt="" className='product-card-img' />
+                                <h4 className='product-header'>{product_name}</h4>
+                                <p style={{ textAlign: "left" }} className='product-info'>{product_title}</p>
+                                <div className="product-price">{product_price}</div>
+                                <div className="month-price">
+                                    {product_sale}
+                                </div>
+                                <button className="product-card-btn">
+                                    <i className="fa-solid fa-cart-plus"></i>
+                                    Savatchaga</button>
 
-
-
-                        <div className="product-card">
-                            <img src={laptop} alt="" className='product-card-img' style={{ width: "120px" }} />
-                            <h4 className='product-header'>MacBook Pro</h4>
-                            <p style={{ textAlign: "left" }} className='product-info'>256 gb, 10gb, <br /> gray solutions phone</p>
-                            <div className="product-price">8 300 000 so'm</div>
-                            <div className="month-price">
-                                125 000 so'mdan / 24 oy
                             </div>
-                            <button className="product-card-btn">
-                                <i className="fa-solid fa-cart-plus"></i>
-                                Savatchaga</button>
-
-                        </div>
-
-                        <div className="product-card">
-                            <img src={scooter} alt="" className='product-card-img' style={{ width: "120px" }} />
-                            <h4 className='product-header'>Scooter 13a</h4>
-                            <p style={{ textAlign: "left" }} className='product-info'>69km/s , 10 soat, <br />
-                                gray solutions phone</p>
-                            <div className="product-price">12 300 000 so'm</div>
-                            <div className="month-price">
-                                230 000 so'mdan / 24 oy
-                            </div>
-                            <button className="product-card-btn">
-                                <i className="fa-solid fa-cart-plus"></i>
-                                Savatchaga</button>
-
-                        </div>
-
-                        <div className="product-card">
-                            <img src={TV} alt="" className='product-card-img' style={{ width: "120px" }} />
-                            <h4 className='product-header'>Samsung 55a</h4>
-                            <p style={{ textAlign: "left" }} className='product-info'>256 gb, 10gb, <br /> gray solutions phone</p>
-                            <div className="product-price">3 300 000 so'm</div>
-                            <div className="month-price">
-                                115 000 so'mdan / 24 oy
-                            </div>
-                            <button className="product-card-btn">
-                                <i className="fa-solid fa-cart-plus"></i>
-                                Savatchaga</button>
-
-                        </div>
-
-                        <div className="product-card">
-                            <img src={mebel} alt="" className='product-card-img' style={{ width: "120px" }} />
-                            <h4 className='product-header'>iPhone 13 Pro Max</h4>
-                            <p style={{ textAlign: "left" }} className='product-info'>256 gb, 10gb, <br /> gray solutions phone</p>
-                            <div className="product-price">10 300 000 so'm</div>
-                            <div className="month-price">
-                                345 000 so'mdan / 24 oy
-                            </div>
-                            <button className="product-card-btn">
-                                <i className="fa-solid fa-cart-plus"></i>
-                                Savatchaga</button>
-
-                        </div>
-
-                        <div className="product-card">
-                            <img src={iphone} alt="" className='product-card-img' />
-                            <h4 className='product-header'>iPhone 13 Pro Max</h4>
-                            <p style={{ textAlign: "left" }} className='product-info'>256 gb, 10gb, <br /> gray solutions phone</p>
-                            <div className="product-price">5 300 000 so'm</div>
-                            <div className="month-price">
-                                160 000 so'mdan / 24 oy
-                            </div>
-                            <button className="product-card-btn">
-                                <i className="fa-solid fa-cart-plus"></i>
-                                Savatchaga</button>
-
-                        </div>
-
-                        <div className="product-card">
-                            <img src={vacuum} alt="" className='product-card-img' style={{ width: "110px" }} />
-                            <h4 className='product-header'>Changyutkich</h4>
-                            <p style={{ textAlign: "left" }} className='product-info'>256 gb, 10gb, <br /> gray solutions phone</p>
-                            <div className="product-price">3 300 000 so'm</div>
-                            <div className="month-price">
-                                80 000 so'mdan / 24 oy
-                            </div>
-                            <button className="product-card-btn">
-                                <i className="fa-solid fa-cart-plus"></i>
-                                Savatchaga</button>
-
-                        </div>
-
+                        ))}
                     </div>
-
                     <div className="ads">
                         <img src={allApple} alt="" className='brands' />
                         <img src={allXiaomi} alt="" className='brands' />
                         <img src={allSamsung} alt="" className='brands' />
                     </div>
-
-
-
-
-
                     <h2 style={{ marginBottom: "30px", marginTop: "30px" }}>{t('qulaynarx.qulaynarx_text')}</h2>
                     <div className="product-cards">
+                        {obj_card.map(({ product_name, product_title, product_price, product_sale, product_image }) => (
+                            <div className="product-card">
+                                <img src={product_image} alt="" className='product-card-img' />
+                                <h4 className='product-header'>{product_name}</h4>
+                                <p style={{ textAlign: "left" }} className='product-info'>{product_title}</p>
+                                <div className="product-price">{product_price}</div>
+                                <div className="month-price">
+                                    {product_sale}
+                                </div>
+                                <button className="product-card-btn">
+                                    <i className="fa-solid fa-cart-plus"></i>
+                                    Savatchaga</button>
 
-
-                        <div className="product-card">
-                            <img src={laptop} alt="" className='product-card-img' style={{ width: "120px" }} />
-                            <h4 className='product-header'>MacBook Pro</h4>
-                            <p style={{ textAlign: "left" }} className='product-info'>256 gb, 10gb, <br /> gray solutions phone</p>
-                            <div className="product-price">8 300 000 so'm</div>
-                            <div className="month-price">
-                                125 000 so'mdan / 24 oy
                             </div>
-                            <button className="product-card-btn">
-                                <i className="fa-solid fa-cart-plus"></i>
-                                Savatchaga</button>
-
-                        </div>
-
-                        <div className="product-card">
-                            <img src={scooter} alt="" className='product-card-img' style={{ width: "120px" }} />
-                            <h4 className='product-header'>Scooter 13a</h4>
-                            <p style={{ textAlign: "left" }} className='product-info'>69km/s , 10 soat, <br />
-                                gray solutions phone</p>
-                            <div className="product-price">12 300 000 so'm</div>
-                            <div className="month-price">
-                                230 000 so'mdan / 24 oy
-                            </div>
-                            <button className="product-card-btn">
-                                <i className="fa-solid fa-cart-plus"></i>
-                                Savatchaga</button>
-
-                        </div>
-
-                        <div className="product-card">
-                            <img src={TV} alt="" className='product-card-img' style={{ width: "120px" }} />
-                            <h4 className='product-header'>Samsung 55a</h4>
-                            <p style={{ textAlign: "left" }} className='product-info'>256 gb, 10gb, <br /> gray solutions phone</p>
-                            <div className="product-price">3 300 000 so'm</div>
-                            <div className="month-price">
-                                115 000 so'mdan / 24 oy
-                            </div>
-                            <button className="product-card-btn">
-                                <i className="fa-solid fa-cart-plus"></i>
-                                Savatchaga</button>
-
-                        </div>
-
-                        <div className="product-card">
-                            <img src={mebel} alt="" className='product-card-img' style={{ width: "120px" }} />
-                            <h4 className='product-header'>iPhone 13 Pro Max</h4>
-                            <p style={{ textAlign: "left" }} className='product-info'>256 gb, 10gb, <br /> gray solutions phone</p>
-                            <div className="product-price">10 300 000 so'm</div>
-                            <div className="month-price">
-                                345 000 so'mdan / 24 oy
-                            </div>
-                            <button className="product-card-btn">
-                                <i className="fa-solid fa-cart-plus"></i>
-                                Savatchaga</button>
-
-                        </div>
-
-                        <div className="product-card">
-                            <img src={iphone} alt="" className='product-card-img' />
-                            <h4 className='product-header'>iPhone 13 Pro Max</h4>
-                            <p style={{ textAlign: "left" }} className='product-info'>256 gb, 10gb, <br /> gray solutions phone</p>
-                            <div className="product-price">5 300 000 so'm</div>
-                            <div className="month-price">
-                                160 000 so'mdan / 24 oy
-                            </div>
-                            <button className="product-card-btn">
-                                <i className="fa-solid fa-cart-plus"></i>
-                                Savatchaga</button>
-
-                        </div>
-
-                        <div className="product-card">
-                            <img src={vacuum} alt="" className='product-card-img' style={{ width: "110px" }} />
-                            <h4 className='product-header'>Changyutkich</h4>
-                            <p style={{ textAlign: "left" }} className='product-info'>256 gb, 10gb, <br /> gray solutions phone</p>
-                            <div className="product-price">3 300 000 so'm</div>
-                            <div className="month-price">
-                                80 000 so'mdan / 24 oy
-                            </div>
-                            <button className="product-card-btn">
-                                <i className="fa-solid fa-cart-plus"></i>
-                                Savatchaga</button>
-
-                        </div>
-
+                        ))}
                     </div>
                     <img src={Japan} alt="" style={{ width: "1120px", marginTop: "25px" }} />
-
                     <h2 style={{ textAlign: "center", marginTop: "25px" }}>{t('pulqayta.pulqayta_text')}</h2>
-
                     <div className="delivery-info">
                         <div className="delivery">
                             <div className="delivery-icon"><i className="fa-solid fa-truck"></i></div>
                             <h3 style={{ marginBottom: "10px", color: "#065374" }}>{t('dastavka.dastavka')}</h3>
                             <p style={{ color: "#333333" }}>{t('dastavka_text.dastavka_text')}</p>
                         </div>
-
-
                         <div className="delivery">
                             <div className="delivery-icon"><img src={verified} alt="" /></div>
                             <h3 style={{ marginBottom: "10px", color: "#065374" }}>{t('bolibT.bolibT')}</h3>
                             <p style={{ color: "#333333" }}>{t('bolibT_text.bolibT_text')}</p>
                         </div>
-
-
                         <div className="delivery">
                             <div className="delivery-icon"><i className="fa-solid fa-award"></i></div>
                             <h3 style={{ marginBottom: "10px", color: "#065374" }}>{t('garant.garant')}</h3>
                             <p style={{ color: "#333333" }}>{t('garant_text.garant_text')}</p>
                         </div>
-
-
                         <div className="delivery">
                             <div className="delivery-icon"><i className="fa-solid fa-phone-volume"></i></div>
                             <h3 style={{ marginBottom: "10px", color: "#065374" }}>{t('xizmat.xizmat')}</h3>
                             <p style={{ color: "#333333" }}>{t('xizmat_text.xizmat_text')}</p>
                         </div>
-
-
                     </div>
-
                     <div className="last-seen">
                         <h2 style={{ marginTop: "30px" }}>{t('songi.songi')}</h2>
                     </div>
-
-
-
                     <div className="last-seens">
 
-                        <div className="product-card">
-                            <img src={TV} alt="" className='product-card-img' style={{ width: "120px" }} />
-                            <h4 className='product-header'>Samsung 55a</h4>
-                            <p style={{ textAlign: "left" }} className='product-info'>256 gb, 10gb, <br /> gray solutions phone</p>
-                            <div className="product-price">3 300 000 so'm</div>
-                            <div className="month-price">
-                                115 000 so'mdan / 24 oy
+                        {obj_card.map(({ product_name, product_title, product_price, product_sale, product_image }) => (
+                            <div className="product-card">
+                                <img src={product_image} alt="" className='product-card-img' />
+                                <h4 className='product-header'>{product_name}</h4>
+                                <p style={{ textAlign: "left" }} className='product-info'>{product_title}</p>
+                                <div className="product-price">{product_price}</div>
+                                <div className="month-price">
+                                    {product_sale}
+                                </div>
+                                <button className="product-card-btn">
+                                    <i className="fa-solid fa-cart-plus"></i>
+                                    Savatchaga</button>
+
                             </div>
-                            <button className="product-card-btn">
-                                <i className="fa-solid fa-cart-plus"></i>
-                                Savatchaga</button>
-
-                        </div>
-
-                        <div className="product-card">
-                            <img src={mebel} alt="" className='product-card-img' style={{ width: "120px" }} />
-                            <h4 className='product-header'>iPhone 13 Pro Max</h4>
-                            <p style={{ textAlign: "left" }} className='product-info'>256 gb, 10gb, <br /> gray solutions phone</p>
-                            <div className="product-price">10 300 000 so'm</div>
-                            <div className="month-price">
-                                345 000 so'mdan / 24 oy
-                            </div>
-                            <button className="product-card-btn">
-                                <i className="fa-solid fa-cart-plus"></i>
-                                Savatchaga</button>
-
-                        </div>
-
-                        <div className="product-card">
-                            <img src={iphone} alt="" className='product-card-img' />
-                            <h4 className='product-header'>iPhone 13 Pro Max</h4>
-                            <p style={{ textAlign: "left" }} className='product-info'>256 gb, 10gb, <br /> gray solutions phone</p>
-                            <div className="product-price">5 300 000 so'm</div>
-                            <div className="month-price">
-                                160 000 so'mdan / 24 oy
-                            </div>
-                            <button className="product-card-btn">
-                                <i className="fa-solid fa-cart-plus"></i>
-                                Savatchaga</button>
-
-                        </div>
-
-                        <div className="product-card">
-                            <img src={vacuum} alt="" className='product-card-img' style={{ width: "110px" }} />
-                            <h4 className='product-header'>Changyutkich</h4>
-                            <p style={{ textAlign: "left" }} className='product-info'>256 gb, 10gb, <br /> gray solutions phone</p>
-                            <div className="product-price">3 300 000 so'm</div>
-                            <div className="month-price">
-                                80 000 so'mdan / 24 oy
-                            </div>
-                            <button className="product-card-btn">
-                                <i className="fa-solid fa-cart-plus"></i>
-                                Savatchaga</button>
-
-                        </div>
-
+                        ))}
                     </div>
-
-
-
-
-
                 </div>
             </section>
 
             <footer>
                 <div className="footer-part">
-
                     <div className="footer-left">
                         <h2 className="footer-header">{t('qolab.qolab')}</h2>
                         <div className="footer-number"><i className="fa-solid fa-mobile-screen-button"></i>
@@ -514,23 +223,18 @@ function HomeCompo() {
                             09:00 - 20:00 (Har kuni)
                         </div>
                     </div>
-
                     <div className="footer-right">
                         <h2 className="footer-header-right" style={{ marginBottom: "30px" }}>
-                        {t('olsavdo.olsavdo')}
+                            {t('olsavdo.olsavdo')}
                         </h2>
                         <div className="footer-locate">
                             <i className="fa-solid fa-location-dot"></i>
                             {t('local.local')}
                         </div>
                     </div>
-
                 </div>
             </footer>
-
-
         </>
     )
 }
-
 export default HomeCompo
