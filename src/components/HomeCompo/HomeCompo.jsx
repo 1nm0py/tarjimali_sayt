@@ -1,4 +1,3 @@
-import React, { useEffect, useState } from 'react'
 import './style.css';
 import MenuComp from '../MenuComp/MenuComp';
 import headerImg from '../../img/Header-img.png';
@@ -16,8 +15,7 @@ import APPLE from '../../img/APPLE.png';
 import LENOVO from '../../img/LENOVO.png';
 import HP from '../../img/HP.png';
 import SAMSUNG from '../../img/SAMSUNG.png';
-import scooter from '../../img/scooter.png';
-import mebel from '../../img/mebel.png';
+
 
 import allApple from '../../img/barcha-apple.png';
 import allXiaomi from '../../img/barcha-xiaomi.png';
@@ -33,7 +31,7 @@ import { obj_card } from '../../card_list_01';
 
 
 function HomeCompo() {
-    const [weektext, setWeektext] = useState("");
+    // const [weektext, setWeektext] = useState("");
     const time = new Date().getHours()
     const minute = new Date().getMinutes()
     const week = new Date().getDay()
