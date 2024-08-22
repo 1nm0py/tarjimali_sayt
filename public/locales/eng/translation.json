@@ -67,5 +67,20 @@
     },
     "local": {
         "local": "Almalyk city, Kamalak district. Amir Temur street 29-a house"
+    },
+    "savatcha":{
+        "savat": "Basket"
+    },
+    "sev":{
+        "sevim": "Like"
+    },
+    "taqos":{
+        "taq": "Comparison"
+    },
+    "sum": {
+        "s": "month"
+    },
+    "izlash":{
+        "iz": "Product search..."
     }
 }

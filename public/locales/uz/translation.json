@@ -67,5 +67,20 @@
     },
     "local":{
         "local": "Olmaliq shahar, Kamalak tumani. \nAmir Temur ko’chasi 29-a uy"
+    },
+    "savatcha":{
+        "savat": "Savatcha"
+    },
+    "sev":{
+        "sevim": "Sevimli"
+    },
+    "taqos":{
+        "taq": "Taqqos"
+    },
+    "sum": {
+        "s": "oy"
+    },
+    "izlash":{
+        "iz": "Mahsulot izlash..."
     }
 }

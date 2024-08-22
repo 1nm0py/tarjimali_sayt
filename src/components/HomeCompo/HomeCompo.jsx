@@ -88,7 +88,7 @@ function HomeCompo() {
             <section className='section'>
                 <div className="ADS">
                     <div className="brand-header">
-                        <h2>{t('brend.brend_text')}</h2>        <a href="" style={{ textDecoration: "underline", color: "green" }}>Brandlar</a>
+                        <h2>{t('brend.brend_text')}</h2>        <a href="" style={{ textDecoration: "underline", color: "green" }}></a>
                     </div>
                     <div className="brands-img">
                         <img src={LG} alt="" className='brand-img' />
@@ -113,7 +113,7 @@ function HomeCompo() {
                                 </div>
                                 <button className="product-card-btn">
                                     <i className="fa-solid fa-cart-plus"></i>
-                                    Savatchaga</button>
+                                    {t('savatcha.savat')}</button>
 
                             </div>
                         ))}
@@ -133,7 +133,7 @@ function HomeCompo() {
                                 </div>
                                 <button className="product-card-btn">
                                     <i className="fa-solid fa-cart-plus"></i>
-                                    Savatchaga</button>
+                                    {t('savatcha.savat')}</button>
 
                             </div>
                         ))}
@@ -156,7 +156,7 @@ function HomeCompo() {
                                 </div>
                                 <button className="product-card-btn">
                                     <i className="fa-solid fa-cart-plus"></i>
-                                    Savatchaga</button>
+                                    {t('savatcha.savat')}</button>
 
                             </div>
                         ))}
@@ -201,7 +201,7 @@ function HomeCompo() {
                                 </div>
                                 <button className="product-card-btn">
                                     <i className="fa-solid fa-cart-plus"></i>
-                                    Savatchaga</button>
+                                    {t('savatcha.savat')}</button>
 
                             </div>
                         ))}
