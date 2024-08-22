@@ -50,16 +50,11 @@ function HomeCompo() {
                         <p className="nav-text">{time}:{minute < 10 ? "0" + minute : minute}  {week === 1 ? "Dushanba" : ""}{week === 2 ? "Seshanba" : ""}{week === 3 ? "Chorshanba" : ""}{week === 4 ? "Payshanba" : ""}{week === 5 ? "Juma" : ""}{week === 6 ? "Shanba" : ""}{week === 7 ? "Yakshanba" : ""}</p>
                     </div>
                     <div className="right-text">
-                        {/* <p className="nav-text">O'zbekcha <i className="fa-solid fa-caret-down"></i></p> */}
-                        <button onClick={() => handleClick('eng')} >
-                            English
-                        </button>
-                        <button onClick={() => handleClick('ru')} >
-                            Russian
-                        </button>
-                        <button onClick={() => handleClick('uz')} >
-                            Uzbek
-                        </button>
+                    <select onChange={(e) => handleClick(e.target.value)}>
+                                <option value="eng">ENG</option>
+                                <option value="uz">UZ</option>
+                                <option value="ru">RU</option>
+                            </select>
                     </div>
                 </nav>
             </div>
